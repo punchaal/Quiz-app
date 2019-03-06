@@ -1,0 +1,93 @@
+body{
+    height:100%;
+     background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(media/Stadium\ BG.jpg);
+    background-position:center;
+   font-family:Exo;
+   color:white;
+}
+
+.initiateQuiz{
+    color:white;
+    text-align:center;
+    position:relative;
+    top:75px;
+}
+
+.btn-primary{
+    padding:15px;
+    width: 400px;
+    border:none;
+    background: #0e0e47;
+    color:white;
+    font-weight:600;
+    font-family:Roboto;
+    border-radius:10px;
+    text-align:center;
+    transition-duration:1s;
+    margin-top:20px;
+}
+
+.btn-primary:hover{
+    color:yellow;
+    background:black;
+}
+
+ul{
+    color:white;
+   list-style-type:none;
+   text-align:right;
+}
+
+li{
+    display:inline-block;
+    padding:30px;
+}
+
+.logo{
+    height:75px;
+    width:75px;
+    padding:10px;
+    float:left;
+    
+}
+.quiz-form{
+    color:white;
+    border:none;
+}
+
+label{
+    display:block;
+    border:none;
+    width:370px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+    padding: 15px;
+    background-color:black;
+    border-radius:10px;
+    font-family:Roboto;
+    transition-duration:1s;
+}
+
+label:hover,label:focus{
+    background-color: rgb(70, 0, 0);
+}
+
+input[type=radio]:checked{
+    background-color:rgb(70, 0, 0);
+}
+
+fieldset{
+    border:none;
+}
+
+.correctFeedback, .wrongFeedback{
+    font-weight: 600;
+    font-family:Roboto;
+    font-size: 20px;
+}
+
