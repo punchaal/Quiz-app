@@ -14,6 +14,12 @@ body{
    background-position:center;
 }
 
+.mainHeader{
+    position:relative;
+    top: 150px;
+    text-align:center;
+}
+
 
 .initiateQuiz{
     color:white;
@@ -37,12 +43,17 @@ body{
     margin-top:20px;
 }
 
+.btn-lets-go{
+    position:relative;
+    top:150px;
+}
+
 .btn-primary:hover{
     color:yellow;
     background:black;
 }
 
-ul{
+.pointsNav{
     color:white;
    list-style-type:none;
    text-align:right;
