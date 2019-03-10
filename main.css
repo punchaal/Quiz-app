@@ -9,12 +9,14 @@ body{
    color:white;
 }
 
+
 .initiateQuiz{
     color:white;
     text-align:center;
     position:relative;
     top:75px;
 }
+
 
 .btn-primary{
     padding:15px;
@@ -73,13 +75,20 @@ label{
     transition-duration:1s;
 }
 
+input:checked + span {
+    color: yellow;
+
+}
+
+.label_main_selected{
+    background-color:maroon;
+}
+
 label:hover,label:focus{
     background-color: rgb(70, 0, 0);
 }
 
-input[type=radio]:checked{
-    background-color:rgb(70, 0, 0);
-}
+
 
 fieldset{
     border:none;

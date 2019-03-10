@@ -68,7 +68,7 @@ function checkUserAnswer(answer){
 
 function generateRightFeedback(){
     $('#quiz').html(`<div class="correctFeedback">
-    <img src="http://www.neath-archers.co.uk/wp-content/uploads/2015/09/clipart-two-thumbs-up-happy-smiley-emoticon-512x512-eec6.png" height="100px" width="100px" />
+    <img src="http://www.neath-archers.co.uk/wp-content/uploads/2015/09/clipart-two-thumbs-up-happy-smiley-emoticon-512x512-eec6.png" height="100px" width="100px" alt = "thumbs up" />
     <p>Congratulations you are a genius!! The cricketing fraternity is proud of you!</p>
     <button type=button class="btn-primary" id="js-next-button">Next</button></div>`
     );
@@ -76,7 +76,7 @@ function generateRightFeedback(){
 
 function generateWrongFeedback(){
     $('#quiz').html(`<div class="wrongFeedback">
-    <img src="http://clipart-library.com/img/1293768.png" height="100px" width="100px" />
+    <img src="http://clipart-library.com/img/1293768.png" height="100px" width="100px" alt="thumbs down" />
     <p>Your performance on this question was quite underwhelming!! </p>
     <button type=button class="btn-primary" id="js-next-button">Next</button></div>`
     );
@@ -132,6 +132,7 @@ function createResultsPage() {
       changeQuestionNumber();
     });
   }
+
 
 function handleButtons() {
     handleStartButton();

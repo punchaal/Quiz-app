@@ -1,0 +1,36 @@
+body{
+   font-family:Exo;
+}
+
+h1{
+    text-align:center;
+    position:relative;
+    top:100px;
+}
+
+button{
+    position:relative;
+    top:125px;
+    left:600px;
+}
+
+ul{
+   list-style-type:none;
+   text-align:right;
+}
+
+li{
+    display:inline-block;
+    padding:30px;
+}
+
+.logo{
+    height:75px;
+    width:75px;
+    padding:10px;
+    float:left;
+}
+
+
+
+
