@@ -7,7 +7,7 @@ body{
      background-image:linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-      ), url(media/cricketBg2.jpg);
+      ), url(Media/cricketBg2.jpg);
    font-family:Exo;
    color:white;
    background-size:cover;
