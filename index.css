@@ -1,12 +1,17 @@
+html{
+    height: 100%;
+}
+
 body{
     height:100%;
      background-image:linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-      ), url(media/Stadium\ BG.jpg);
-    background-position:center;
+      ), url(media/cricketBg2.jpg);
    font-family:Exo;
    color:white;
+   background-size:cover;
+   background-position:center;
 }
 
 
@@ -80,9 +85,6 @@ input:checked + span {
 
 }
 
-.label_main_selected{
-    background-color:maroon;
-}
 
 label:hover,label:focus{
     background-color: rgb(70, 0, 0);
