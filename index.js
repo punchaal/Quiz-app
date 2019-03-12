@@ -19,8 +19,8 @@ function nextQuestion() {
 
 function questionTemplate() {
 return `<section id = "quiz" role="main">
-        <h2> ${STORE[questionNumber].question}</h2>
             <form>
+             <legend> ${STORE[questionNumber].question}</legend>
                 <fieldset>
                     <label>
                     <input class="option" type="radio" name="options" checked></input>
